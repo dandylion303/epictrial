@@ -1,0 +1,108 @@
+body {background-color: rgb(255, 249, 243);
+     font-family: "Noto Sans", sans-serif;
+     font-optical-sizing: auto;
+}
+
+.hero {
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        margin-left: 2%;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 4em;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(49, 53, 80);
+}
+
+em {
+    color: rgb(225, 122, 62);
+    margin-top: -2%;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: -2%;
+}
+
+.subtitle {
+    color: rgb(109, 98, 106);
+}
+
+p {max-width: 80%;    
+}
+
+.img {
+max-width: auto;
+object-fit: contain;
+padding-right: 5%;
+padding-left: 5%;
+
+}
+
+.about {
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 5%;
+    padding-right: 2%;
+    margin-bottom: 5%;
+    background-color: rgb(109, 98, 106);
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+ul {color: white;
+}
+
+li {margin-bottom: 5px;
+    margin-top: 5px;
+    list-style-position: inside;
+    text-align: right;
+    direction: rtl;
+
+}
+
+.titlecnt {
+    color: rgb(109, 98, 106);
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+form{
+    display: inline;
+}
+
+input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width:400px;
+}
+textarea {
+    height: 120px;
+    width:400px;
+    display: block;
+    margin-bottom: 5px;
+}
+button {
+    display: block;
+    width: 400px;
+}
+
+a {
+    color: rgb(109,98,106);
+}
+
+a:hover {
+    color:rgb(225, 153, 98)
+}
