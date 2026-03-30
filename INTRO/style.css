@@ -74,9 +74,11 @@ li {margin-bottom: 5px;
 }
 
 .contacts {
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin: 2%;
+
 }
 form{
     display: inline;
