@@ -1,6 +1,7 @@
 body {background-color: rgb(255, 249, 243);
      font-family: "Noto Sans", sans-serif;
      font-optical-sizing: auto;
+     margin-bottom: 0px;
 }
 
 .hero {
@@ -8,6 +9,7 @@ body {background-color: rgb(255, 249, 243);
         grid-template-columns: auto auto;
         align-items: center;
         margin-left: 2%;
+        height:100vh;
 }
 
 h1 {
@@ -120,4 +122,10 @@ a:hover {
 
 .why{
     background-color: rgb(255, 153, 98);
+
+}
+
+.why p {
+    width: 80%;
+    margin-left: 30px;
 }
