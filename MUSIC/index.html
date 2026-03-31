@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catster</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Meow+Script&display=swap');
+</style>
+</head>
+<body>  
+    <div id="header">
+        <h1>Niente Padroni Qui</h1>
+        <h2>Solo Playlist</h2>
+        
+    </div>
+
+    <div id="content">
+        <div id="picture">
+            <img src="media/djcat.png" alt="gatto con cuffie"/>
+        </div>
+
+        <div id="form"><form onsubmit="alert('Ottimo! Promettiamo niente miagolii alle 3 del mattino')">
+            <div><input type="text" placeholder="Come ti chiamano"></div>
+            <div><input type="email" placeholder="La tua mail"></div>
+            <div><input type="number" placeholder="Miagoliamo al tel"/></div>
+            <div><input type="date" placeholder="Data di nascita"/></div>
+            <div>
+                <fieldset><legend>Cosa ti fa miagolare?</legend>
+                <div><input type="checkbox"><label for="meow">Meow</label></div>
+                <div><input type="checkbox"><label for="mao">Mao</label></div>
+                <div><input type="checkbox"><label for="prrmameow">Prrmameow</label></div>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset><legend>Devi miagolare qui</legend>
+                <input type="radio"><label for="acceptance">Accetti i nostri miagolii? La tua privacy sarà invasa</label>
+                </fieldset>
+            <button type="submit">MIAO!</button>
+            </form>
+        <div id="music">
+            <img src="media/music.png" alt="musicassetta" id="player">
+        </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
