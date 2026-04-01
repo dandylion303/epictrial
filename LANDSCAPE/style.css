@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.main-section {
+    padding: 20px;
+}
+
+.image-container {
+    height: 500px;
+    background-image: url(postobello1.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.image-container-colosseo {
+    height: 500px;
+    background-image: url("https://www.repstatic.it/content/localirep/img/rep-roma/2021/05/04/114858946-a42e29e8-8f4c-4aa1-8a75-f6877f2b7451.jpg");
+    background-position: center;
+    background-size: cover;}
+
+
+.image-container-japan {
+    height: 500px;
+    background-image: url("https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2021%2F07%2F4k-cross-shinjuku-vision-japan-display-giant-cat-news-tw.jpg?w=1080&cbr=1&q=90&fit=max");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-container-turk {
+    height: 500px;
+    background-image: url("https://s7g10.scene7.com/is/image/barcelo/gatti-istanbul_viaggio-a-istanbul?&&fmt=webp-alpha&qlt=75&wid=1300&fit=crop,1");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.titolo {
+    font-family: "Prata", serif;
+    font-weight: 400; 
+    font-size: 64px;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-family: "Prata", serif;
+    font-weight: 400; 
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+a {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.intro {
+    padding: 22px;
+    margin-bottom: 0px;
+    margin-top: 56px;
+    color: white;
+}
+
+.grad {
+    background: linear-gradient(90deg, #404e74, #ffff);
+    border-radius: 6px;
+}
+
+.grad-rome {
+    background: linear-gradient(90deg, #3a1e04, #ffffff);
+    border-radius: 6px;
+}
+
+.grad-japan {
+    background: linear-gradient(90deg, #000000, #ffffff);
+    border-radius: 6px;
+}
+
+.grad-turk {
+    background: linear-gradient(90deg, #115048, #ffffff);
+    border-radius: 6px;
+}
+
+.grad h6{
+    color: white;
+}
+
+ul li{
+  list-style: none;
+  padding: 6px 0;
+  padding-left: 22px;
+  margin: 0;
+  border-bottom: 1px solid #dfdfdf;
+}
+  
+ul li a {  
+  text-decoration: none;
+  color: #ffffff; 
+}
+
+.footer {
+    padding: 16px;
+    background-color: black;
+    text-align: center;
+
+}
+
+.footer a {
+    color: white;
+}
