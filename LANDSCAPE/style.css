@@ -37,6 +37,19 @@ body{
     background-size: cover;
 }
 
+.image-container-mont {
+    height: 500px;
+    background-image:url("https://www.petme.it/wp-content/uploads/2023/11/Schermata-2023-11-06-alle-19.51.24-1-e1699525028536.png");
+    background-position: center;
+    background-size:cover;
+}
+
+.image-container-mal {
+    height: 500px;
+    background-image:url("https://familytravellerimages.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/3/2025/04/cat-sculpture-kuching-sarawak.jpg");
+    background-position: center;
+    background-size:cover;
+}
 
 .titolo {
     font-family: "Prata", serif;
@@ -83,7 +96,17 @@ a {
 }
 
 .grad-turk {
-    background: linear-gradient(90deg, #115048, #ffffff);
+    background: linear-gradient(90deg, #116b4f, #ffffff);
+    border-radius: 6px;
+}
+
+.grad-mont {
+    background: linear-gradient(90deg, #b4120c, #ffffff);
+    border-radius: 6px;
+}
+
+.grad-mal {
+    background: linear-gradient(90deg, #a6ca08, #ffffff);
     border-radius: 6px;
 }
 
@@ -101,7 +124,33 @@ ul li{
   
 ul li a {  
   text-decoration: none;
-  color: #ffffff; 
+  color: #404e74; 
+}
+
+.colosseo ul li a {
+    text-decoration: none;
+    color: #3a1e04
+    ;
+}
+
+.turk ul li a {
+    text-decoration: none;
+    color: #116b4f; 
+}
+
+.jap ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.mont ul li a {
+    text-decoration: none;
+    color:#b4120c
+}
+
+.mal ul li a {
+    text-decoration: none;
+    color:#a6ca08
 }
 
 .footer {
