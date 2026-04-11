@@ -1,50 +1,51 @@
-*{
-padding:0;
-margin:0;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-body{
+body {
     background-color: #EAEDED;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo {
-    background-color:#222F3E;
+    background-color: #222F3E;
 }
 
-.logo img{
+.logo img {
     height: 3rem;
     margin: 1.5rem;
     margin-top: 1rem;
 }
 
-.Nav{
-    background-color:#354758;
-    padding:0.5rem;
+.Nav {
+    background-color: #354758;
+    padding: 0.5rem;
     padding-left: 2rem;
-    
+
 }
-.Nav a{
+
+.Nav a {
     margin-right: 1.5rem;
-    color:white;
-    font-size:larger;
+    color: white;
+    font-size: larger;
     text-decoration: none;
 }
 
-.topContainer{
-    padding:2rem;
+.topContainer {
+    padding: 2rem;
 }
 
-.CTA{
-    background-color:#F56600;
+.CTA {
+    background-color: #F56600;
     text-align: center;
-    color:white;
-    padding:0.5rem;
+    color: white;
+    padding: 0.5rem;
     margin-bottom: 2rem;
 }
 
-.giftGuides{
-    background-image:url(./assets/bg-image.png);
+.giftGuides {
+    background-image: url(./assets/bg-image.png);
     background-size: contain;
     min-height: 180px;
     display: flex;
@@ -52,8 +53,8 @@ body{
     justify-content: center;
 }
 
-.giftGuides p{
-    color:white;
+.giftGuides p {
+    color: white;
     font-weight: bold;
     text-align: center;
 }
@@ -67,84 +68,88 @@ body{
     font-size: 1.5rem;
 }
 
-.rowShopping{
-    padding:2rem;
-    padding-bottom:0rem
+.rowShopping {
+    padding: 2rem;
+    padding-bottom: 0rem
 }
 
-.boxCard{
+.boxCard {
     background-color: white;
     margin-top: 0;
     margin-bottom: 2rem;
-    padding:3rem;
-    height:25%;
+    padding: 3rem;
+    height: 25%;
 }
 
-.boxCard p{
+.boxCard p {
     font-size: 1.2rem;
     font-weight: 500;
-    padding-bottom:1rem;
+    padding-bottom: 1rem;
 }
-.boxCard span{
-    color:#017185;
+
+.boxCard span {
+    color: #017185;
     font-weight: bolder;
-    font-size:1rem;
+    font-size: 1rem;
     padding-left: 1rem;
-  }
+}
 
-.grid1{
-    display:flex;
-    gap:1rem;
+.grid1 {
+    display: flex;
+    gap: 1rem;
 
 }
 
-.card{
-    width:25%;
+.card {
+    width: 25%;
 }
 
-.card img{
-    width:100%;
+.card img {
+    width: 100%;
     height: 350px;
     border-radius: 7%;
     object-fit: cover;
 }
 
-.banner{
+.banner {
     padding-bottom: 1rem;
 }
-.banner img{
+
+.banner img {
     height: 40vh;
-    width:100%;
+    width: 100%;
     object-fit: cover;
 }
 
-.figcaption{
+.figcaption {
     font-size: 1.2rem;
     font-weight: 500;
     padding-bottom: 1rem;
     text-align: center;
 }
 
-.figcaption span{
-    color:#017185;
+.figcaption span {
+    color: #017185;
     font-weight: bolder;
-    font-size:1rem;
-    padding-left:1rem;
-}
-.footer{
-    margin:0;
+    font-size: 1rem;
+    padding-left: 1rem;
 }
 
-.back{
-    background-color:#354758;
-    padding:1rem;
+.footer {
+    margin: 0;
+}
+
+.back {
+    background-color: #354758;
+    padding: 1rem;
     text-align: center;
 }
-.back a{
-    color:white
+
+.back a {
+    color: white
 }
 
-.logoFooter{
+.logoFooter {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,7 +157,42 @@ body{
     min-height: 150px;
 }
 
-.logoFooter img{
+.logoFooter img {
     height: 3rem;
 }
 
+.extra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:#EAEDED;
+    margin:-1rem;
+    margin-bottom:2rem;
+    
+}
+
+.extraCard {
+    width: 25%;
+    flex-direction: column;
+    background-color: white;
+    padding:1rem;
+    margin:1rem;
+
+}
+
+.extraCard p{
+    font-weight: bolder;
+}
+
+.extraCard img{
+    width:40%;
+    height: 130px;
+    object-fit: cover;
+    padding:10px;
+}
+
+.extraCard a{
+    display: block;
+    color:#017185;
+    text-decoration: none;
+}
