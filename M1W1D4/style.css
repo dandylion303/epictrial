@@ -164,35 +164,62 @@ body {
 .extra {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     background-color:#EAEDED;
     margin:-1rem;
     margin-bottom:2rem;
     
 }
 
-.extraCard {
-    width: 25%;
-    flex-direction: column;
-    background-color: white;
-    padding:1rem;
-    margin:1rem;
+.regali{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:5%;
+    padding-bottom: 1rem;
+}
 
+.extraCard {
+    display:grid;
+    grid-template-columns: 1fr;
+    background-color: white;
+    margin:1rem;
+    padding: 1rem;
 }
 
 .extraCard p{
     font-weight: bolder;
+    padding-bottom: 1rem;
 }
 
 .extraCard img{
-    width:40%;
-    height: 130px;
+    max-width: 90%;
+    height: 140px;
     object-fit: cover;
-    padding:10px;
 }
 
 .extraCard a{
     display: block;
     color:#017185;
     text-decoration: none;
+    margin-top: 1rem;
+}
+
+.new{
+    position:relative;
+    display: inline-block;
+}
+
+.newStamp img{
+    position: absolute;
+    top: 35%;
+    left:60%;
+    width: 35%;
+    object-fit: contain;
+}
+
+.caption{
+    font-size: small;
+    font-weight:lighter;
+    padding-bottom: 1rem;
+    margin-top: 0;
+    padding-top: 0;
 }
