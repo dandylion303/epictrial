@@ -1,0 +1,18 @@
+.card{
+    width: 350px;
+    position:relative;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.saveButton{
+    background-color:red;
+    color:white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    position:absolute;
+}
