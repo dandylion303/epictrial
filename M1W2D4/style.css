@@ -1,0 +1,363 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+/*HEADER*/
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0px 120px;
+    box-shadow: 0 6px 15px 2px rgba(0, 0, 0, 0.06);
+}
+
+.logo img {
+    height: 40px;
+}
+
+.utilities {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    color: grey;
+}
+
+.utilities button {
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 10px 15px;
+}
+
+.utilities button:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.utilities i:hover {
+    color: black;
+}
+
+.profile {
+    border: solid orangered;
+    border-radius: 50%;
+    background-color: orangered;
+    width:20px;
+    height:20px;
+    padding:5px;
+    text-align: center;
+    color: white;
+}
+
+
+
+/*MAIN*/
+
+.container {
+    display: flex;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    border-right: solid 2px rgb(241, 241, 241);
+    padding: 50px 50px 0px 120px;
+    width:100%;
+}
+
+.topLinks {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+    border-bottom: solid 2px rgb(241, 241, 241);
+    min-width: 350px;
+}
+
+.topLinks a {
+    color: grey;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.topLinks a:hover {
+    text-decoration: underline;
+    text-underline-offset: 13px;
+    color: black;
+}
+
+
+
+/*CARD*/
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 250px;
+    gap: 20px;
+    margin-top: 2.5em;
+    margin-bottom: 3.5em;
+}
+
+.textCard{
+    flex:1;
+}
+
+.cardIntro {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: grey;
+    font-size: 0.8rem;
+}
+
+.cardIntro img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.cardIntro span {
+    font-weight: bold;
+}
+
+.Title {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.abstract {
+    font-weight: 200;
+    font-size: 0.9rem;
+    color: grey;
+    margin-bottom: 0.5rem;
+}
+
+.metaTags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    display: inline-block;
+    color: grey;
+    font-size: small;
+    margin-right: 15px;
+}
+
+.list li:nth-child(3) {
+    background-color: rgb(237, 237, 237);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.articleOptions i {
+    color: gray;
+}
+
+.articleImg {
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+}
+
+/*ASIDE*/
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    padding:50px;
+    gap:50px;
+
+}
+
+.aside h3{
+    color:rgb(69, 69, 69);
+    padding:15px 0px 5px 0px ;
+    margin-bottom:1rem;
+}
+
+/*ASIDE - TwitterBox*/
+
+.twitterBox{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    gap:5px;
+    border-bottom: solid 2px rgb(241, 241, 241);
+    padding-bottom:30px;
+}
+
+.TwitterLoghi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitterBox img{
+    width:50px;
+}
+
+.plus{
+    color:grey;
+}
+
+.twitterLogo{
+    color:rgb(0, 174, 255);
+    font-size:x-large;
+}
+
+.connectButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: white;
+    border-radius: 25px;
+    width:70%;
+    margin-right:auto;
+    margin-left:auto;
+    border: solid 1px grey;
+    margin-bottom:20px;
+}
+
+.connectButton:hover{
+    background-color: rgb(241, 241, 241);
+}
+
+.twitterBox a{
+    color:grey;
+    font-size: small;
+}
+
+/*ASIDE - RecommendedTopics*/
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width:80%;
+}
+
+.categories p{
+    background-color: rgb(241, 241, 241);
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin:0px;
+}
+
+.categories p:hover{
+    background-color:rgb(233, 233, 233);
+}
+
+/*ASIDE - Follow*/
+
+
+.interestingCats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:1rem;
+}
+
+.followCard{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    width:100%;
+}
+
+.avatar img{
+    width:50px;
+    height:50px;
+    border-radius: 50px;
+    margin-right:10px;
+}
+
+.followDetails{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.followDetails .name{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.followDetails .desc{
+    color:grey;
+    font-size: 0.9rem;
+    margin-top:0.5rem;
+}
+
+.followCard button{
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 10px 15px;
+}
+
+.followCard button:hover{
+    background-color:rgb(241, 241, 241);
+}
+
+/*ASIDE - RecentlySaved*/
+
+.savedCards{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.savedCards>.card{
+    display:block;
+    padding: 0px;
+    margin:10px 0px;
+}
+
+.Saved a{
+    color:#1b8a17;
+    text-decoration: none;
+}
+
+.Saved a:hover{
+    text-decoration: underline;
+}
+
+/*FOOTER - Sul fondo dell'aside*/
+
+#footer{
+    margin-top: 50px;
+}
+
+#footer nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    height:150px;
+    gap: 10px;
+}
+
+#footer a{
+    text-decoration: none;
+    color:grey;
+    padding: 10px 10px 0px;
+}
+
+#footer a:hover{
+    color:black;
+}
